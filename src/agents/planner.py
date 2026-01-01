@@ -4,11 +4,11 @@
 import os
 import time
 from typing import List
-from dotenv import load_dotenv
+
 from google import genai
 
 # Load environment variables from .env
-load_dotenv()
+
 
 
 class PlannerAgent:
